@@ -4,3 +4,5 @@ const routesUsers = require('./routesUsers');
 
 router.use('/thoughts', routerThoughts);
 router.use('/users', routesUsers);
+
+module.exports = router;
